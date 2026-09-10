@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<readme>
+  <frontMatter>
+    <title>CLI Reference</title>
+    <description>Index of command-line tool references in docs/cli.</description>
+    <format>xml</format>
+    <source>docs/cli/README.md</source>
+  </frontMatter>
+  <title>CLI Reference</title>
+  <summary>Quick reference docs for the command-line tools used in this environment. Each file covers what the tool is, the commands you'll reach for daily or weekly, and a fuller table of common commands.</summary>
+  <contents>
+    <entry>
+      <tool>brew</tool>
+      <description>Homebrew, the package manager for macOS.</description>
+      <path>../cli/brew.md</path>
+    </entry>
+    <entry>
+      <tool>gh</tool>
+      <description>GitHub's official command-line tool.</description>
+      <path>../cli/gh.md</path>
+    </entry>
+    <entry>
+      <tool>git</tool>
+      <description>Version control.</description>
+      <path>../cli/git.md</path>
+    </entry>
+    <entry>
+      <tool>glow</tool>
+      <description>Render Markdown on the CLI.</description>
+      <path>../cli/glow.md</path>
+    </entry>
+    <entry>
+      <tool>herdr</tool>
+      <description>Terminal workspace manager for AI coding agents.</description>
+      <path>../cli/herdr.md</path>
+    </entry>
+    <entry>
+      <tool>micro</tool>
+      <description>Modern, terminal-based text editor.</description>
+      <path>../cli/micro.md</path>
+    </entry>
+    <entry>
+      <tool>micro + glow</tool>
+      <description>How micro and glow work together to edit and preview Markdown.</description>
+      <path>../cli/micro-and-glow.md</path>
+    </entry>
+  </contents>
+</readme>

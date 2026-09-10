@@ -1,0 +1,19 @@
+{
+  "frontMatter": {
+    "title": "CLI Reference",
+    "description": "Index of command-line tool references in docs/cli.",
+    "format": "json",
+    "source": "docs/cli/README.md"
+  },
+  "title": "CLI Reference",
+  "summary": "Quick reference docs for the command-line tools used in this environment. Each file covers what the tool is, the commands you'll reach for daily or weekly, and a fuller table of common commands.",
+  "contents": [
+    { "tool": "brew", "description": "Homebrew, the package manager for macOS.", "path": "../cli/brew.md" },
+    { "tool": "gh", "description": "GitHub's official command-line tool.", "path": "../cli/gh.md" },
+    { "tool": "git", "description": "Version control.", "path": "../cli/git.md" },
+    { "tool": "glow", "description": "Render Markdown on the CLI.", "path": "../cli/glow.md" },
+    { "tool": "herdr", "description": "Terminal workspace manager for AI coding agents.", "path": "../cli/herdr.md" },
+    { "tool": "micro", "description": "Modern, terminal-based text editor.", "path": "../cli/micro.md" },
+    { "tool": "micro + glow", "description": "How micro and glow work together to edit and preview Markdown.", "path": "../cli/micro-and-glow.md" }
+  ]
+}
